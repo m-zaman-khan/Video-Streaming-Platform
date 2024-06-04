@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.listi:hover{
+  box-shadow: 0 0 15px rgba(244, 244, 244, 0.5);
+
+}
+
+.desc{
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.genre{
+  font-size: 14px;
+  color: lightgray;
+}
+.limit{
+  margin: 0 10px;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+
+/* styles.css or equivalent */
+/* Home.css */
+.search-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 10; /* Ensure it appears above other components */
+  width: 80%;
+  max-width: 600px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 3px 0 0 3px;
+  background-color: #333;
+  color: #fff;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+
+
